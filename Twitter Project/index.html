@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container" id="contain">
+        <div class="row">
+            <div class="well col-xs-3">
+                <div id="myProfile"></div>
+                <div id="showFollows"></div>
+            </div>
+            <div class="col-xs-6">
+                <div class="well well-sm">
+                    <div id="wrap">
+                        <input type="text" placeholder="What's happening?" id="mesInput"/>
+                        <button class="btn btn-primary btn-xs"onclick="app.addMessage();">Chirp!</button>
+                    </div>
+                </div>
+                <div id="showMessage"></div>
+            </div>
+            <div class="well col-xs-3">
+                <div id="users"></div>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div id="chirpModal"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Script.js"></script>
+    <script src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿#contain {
+    margin: 10px 10px 10px 10px;
+}
+
+.editBtns {
+    position: relative;
+    bottom: 10px;
+    
+}
+
+#editBtn {
+    margin-right: 10px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+#wrap {
+    text-align: center;
+}
+
+#mesInput {
+    text-align: center;
+}
